@@ -105,3 +105,18 @@ O objetivo deste repositório é documentar minha jornada de aprendizado de Linu
 - **Documentação**: Utilize a documentação oficial do Linux e participe de fóruns como Stack Overflow e Reddit.
 - **Compartilhe o progresso**: Mantenha o GitHub atualizado com suas descobertas para que outras pessoas possam aprender com sua experiência.
 
+  ## Downloads Necessários
+
+1. **VirtualBox**:
+   - Página oficial de downloads: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+2. **Manual Oficial da Oracle - VirtualBox (PDF)**:
+   - Acesse o manual oficial para instalação e uso: [https://download.virtualbox.org/virtualbox/UserManual.pdf](https://download.virtualbox.org/virtualbox/UserManual.pdf)
+
+3. **Ubuntu ISO**:
+   - Baixe a imagem ISO do Ubuntu para instalação: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
+
+4. **Debian ISO**:
+   - Baixe a imagem ISO do Debian para instalação: [https://www.debian.org/distrib/netinst](https://www.debian.org/distrib/netinst)
+
+
