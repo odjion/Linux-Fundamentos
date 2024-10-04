@@ -1,4 +1,4 @@
-# Linux-Fundamentos Introdução e Primeiros Comandos
+# Linux-Fundamentos: Introdução e Primeiros Comandos
 Uma introdução ao fundamentos do sistema operacional Linux e seus primeiros comandos.
 
 # Plano de Estudo: Aprender Linux em 1 Mês
