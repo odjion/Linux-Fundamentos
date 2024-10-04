@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">   <head>
+    <!-- # block head (placeholder in theme.html) -->
+        <!-- # block head (content inherited from layout.html) -->
+    <title>
+      Downloads     – Oracle VirtualBox
+
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if IE]><script>
+        if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+        </script><![endif]-->
+
+    <link rel="search"  href="/search" />
+    <link rel="help"  href="/wiki/TracGuide" />
+    <link rel="alternate"  href="/wiki/Downloads?format=txt" title="Texto Puro" type="text/x-trac-wiki" />
+    <link rel="start"  href="/wiki" />
+    <link rel="stylesheet"  href="/chrome/common/css/trac.css" type="text/css" />
+    <link rel="stylesheet"  href="/chrome/common/css/wiki.css" type="text/css" />
+    <link rel="icon"  href="/favicon.ico" type="image/x-icon" />
+    <noscript>
+      <style>
+        .trac-noscript { display: none !important }
+      </style>     </noscript>
+    <link type="application/opensearchdescription+xml" rel="search"
+          href="/search/opensearch"
+          title="Pesquisar Oracle VirtualBox"/>
+    <script src="/chrome/common/js/jquery.js"></script>
+    <script src="/chrome/common/js/jquery-migrate.js"></script>
+    <script src="/chrome/common/js/babel.js"></script>
+    <script src="/chrome/common/js/messages/pt_BR.js"></script>
+    <script src="/chrome/common/js/trac.js"></script>
+    <script src="/chrome/common/js/search.js"></script>
+    <script src="/chrome/common/js/folding.js"></script>
+    <script src="/chrome/common/js/wiki.js"></script>
+    <script>
+      jQuery(function($) {
+        $(".trac-autofocus").focus();
+        $(".trac-target-new").attr("target", "_blank");
+        if ($.ui) { /* is jquery-ui added? */
+          $(".trac-datepicker:not([readonly])")
+            .prop("autocomplete", "off").datepicker();
+          // Input current date when today is pressed.
+          var _goToToday = $.datepicker._gotoToday;
+          $.datepicker._gotoToday = function(id) {
+            _goToToday.call(this, id);
+            this._selectDate(id)
+          };
+          $(".trac-datetimepicker:not([readonly])")
+            .prop("autocomplete", "off").datetimepicker();
+          $("#main").addClass("trac-nodatetimehint");
+        }
+        $(".trac-disable").disableSubmit(".trac-disable-determinant");
+        setTimeout(function() { $(".trac-scroll").scrollToTop() }, 1);
+        $(".trac-disable-on-submit").disableOnSubmit();
+      });
+    </script>
+    <!--   # include 'site_head.html' (layout.html) -->
+
+<link rel="stylesheet" type="text/css" href="/chrome/site/style.css"/>
+
+<script>
+  jQuery(function($) {
+    var $ntg = $("#newticketguide");
+    if ($ntg.length)
+      $("#propertyform").prepend($ntg.detach());
+  });
+
+</script>
+
+<script>
+  jQuery(function($) {
+        var $content = $("#content");
+        var $opener = $("#opener");
+        if ($("#opener").length) $content.toggleClass('narrow');
+  });
+</script>    <!--   end of site_head.html -->
+    <!-- # endblock head (content inherited from layout.html) -->
+
+
+    <script>
+      jQuery(function($) {
+        wikiColumn($("#wikipage"));
+      });
+    </script>
+    <!-- # endblock head (placeholder in theme.html) -->
+  </head> 
+  <body>
+    <!-- # block body (content inherited from theme.html) -->
+    <!--   # include 'site_header.html' (theme.html) -->
+
+  <!-- Add site-specific header -->
+  <div id="vboxstring">
+    <img src="/graphics/vboxlogodown.png" alt="VirtualBox"/>
+  </div>
+
+  <div id="center">    <!--   end of site_header.html -->
+
+    <div id="banner">
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Pesquisa:</label>
+          <input type="text" id="proj-search" name="q" size="18"
+                  value="" />
+          <input type="submit" value="Pesquisa" />
+        </div>
+      </form>
+    </div>
+        <div id="mainnav" class="nav">
+      <ul><li  class="last first"><a href="/browser">Ver Código</a></li></ul>
+    </div>
+
+
+    <div id="main"
+         >
+
+<div id="pagepath" class="noprint">
+<a class="pathentry first" title="Visualizar WikiStart"
+   href="/wiki">wiki:</a><a href="/wiki/Downloads"
+     title="Visualizar Downloads"
+     class="pathentry">Downloads</a></div>      <div id="ctxtnav">
+        <li>
+          <a id="logo" href="https://www.virtualbox.org/"><img alt="Oracle VirtualBox" src="/graphics/vbox-new-logo.png"></a>
+        </li>
+        <ul>
+          <li><a href="https://www.virtualbox.org/">Home</a></li>
+          <li><a href="/wiki/Downloads">Download</a></li>
+          <li><a href="/wiki/Documentation">Documentation</a></li>
+          <li><a href="/wiki/Community">Community</a></li>
+          <li class="first">
+            <a id="profile" href="/login"><img src="/graphics/user.png" alt="User profile icon"></a>
+          </li>
+            <form style="text-align: right" action="/search" method="get">
+              <div>
+                <input id="vboxsearch" type="text" name="q" size="10" accesskey="f" value="Search:" onblur="if(this.value=='') this.value='Search:';" onfocus="if(this.value=='Search:') this.value='';">
+                <input type="hidden" name="wiki" value="on">
+                <input type="hidden" name="changeset" value="on">
+                <input type="hidden" name="ticket" value="on">
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+
+      
+
+      
+
+      <!-- # block content (placeholder in theme.html) -->
+    <div id="content" class="wiki narrow">
+
+      <div class="wikipage searchable">
+        <div id="wikipage" class="trac-content borderless"><div class="flexboxes_vertical">
+  <div id="opener"></div>
+  <div class="flexboxes title">
+    <div class="intro">
+      Download VirtualBox
+      <p>The VirtualBox Extension Pack is available for personal and educational use on this page under the PUEL license.  The VirtualBox Extension Pack is also available under commercial or enterprise terms. By downloading, you agree to the terms and conditions of the respective license.</p>
+    </div>
+  </div>
+  <div class="flexboxes short">
+    <div class="flexboxes">
+      <div class="light box dl">
+        <li>VirtualBox Platform Packages</li>
+        <div class="flexboxes icons">
+          <div id="icon-holder">
+            <img src="/graphics/os_win_other.png">
+            <img src="/graphics/os_win_other.png">
+            <img src="/graphics/os_macosx.png">
+            <img src="/graphics/os_macosx.png">
+            <img src="/graphics/os_linux.png">
+            <img src="/graphics/os_solaris.png">
+            <img src="/graphics/os_solaris.png">
+          </div>
+          <div id="pkg-holder">
+<p>
+ <span>VirtualBox 7.1.2 platform packages</span>
+<ul><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2-164945-Win.exe"><span class="icon">​</span>Windows hosts</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2-164945-OSX.dmg"><span class="icon">​</span>macOS / Intel hosts</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2-164945-macOSArm64.dmg"><span class="icon">​</span>macOS / Apple Silicon hosts</a>
+</li><li><a class="wiki" href="/wiki/Linux_Downloads">Linux distributions</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2-164945-SunOS.tar.gz"><span class="icon">​</span>Solaris hosts</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2-164945-Solaris.p5p"><span class="icon">​</span>Solaris 11 IPS hosts</a>
+</li></ul>
+</p>
+          </div>
+        </div>
+        <p>Platform packages are released under the terms of the <a href="/wiki/GPLv3" target="_blank">GPL version 3</a></p>
+      </div>
+      <div class="light box dl">
+        <li>VirtualBox Extension Pack</li>
+<p>
+ <span>VirtualBox 7.1.2 Extension Pack</span>
+ <div id="license-agreement">
+<p>
+This VirtualBox Extension Pack Personal Use and Educational License governs your access to and use of the VirtualBox Extension Pack. It does not apply to the VirtualBox base package and/or its source code, which are licensed under version 3 of the GNU General Public License “GPL”).
+<br /><br />
+See our <a href="https://www.virtualbox.org/wiki/Licensing_FAQ">FAQ</a> for answers to common questions.
+<br /><br />
+<b>VirtualBox Extension Pack Personal Use and Educational License (PUEL)</b>
+<br />
+License version 12, 22 July 2024
+<br /><br />
+PLEASE READ THE FOLLOWING ORACLE VIRTUALBOX EXTENSION PACK PERSONAL USE AND EDUCATIONAL LICENSE CAREFULLY BEFORE DOWNLOADING OR USING THE ORACLE SOFTWARE. THESE TERMS AND CONDITIONS CONSTITUTE A LEGAL AGREEMENT BETWEEN YOU AND ORACLE.
+<br /><br />
+ORACLE AMERICA, INC. (“ORACLE”) IS WILLING TO LICENSE THE PRODUCT DEFINED IN SECTION 1 BELOW ONLY ON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS VIRTUALBOX EXTENSION PACK PERSONAL USE AND EDUCATIONAL LICENSE AGREEMENT (“AGREEMENT”).
+<br /><br />
+IF YOU ARE AGREEING TO THIS LICENSE ON BEHALF OF AN ENTITY (RATHER THAN AS AN INDIVIDUAL HUMAN BEING), YOU REPRESENT THAT YOU HAVE THE APPROPRIATE AUTHORITY TO ACCEPT THESE TERMS AND CONDITIONS ON BEHALF OF SUCH ENTITY.
+<br /><br />
+§ 1 Subject of Agreement. This Agreement governs your use of the binary software package called “Oracle VirtualBox Extension Pack” (the “Product”), which contains a set of additional features for “Oracle VirtualBox” that enhance the operation of multiple virtual machines (“Guest Computers”) on a single physical computer (“Host Computer”). The Product consists of executable files in machine code, script files, data files, and all documentation and updates provided to You by Oracle.
+<br /><br />
+§ 2 Grant of license. Oracle grants you a personal, non-exclusive, non-transferable, limited license without fees to reproduce, install, execute, and use internally the Product on Host Computers for your Personal Use, or Educational Use. “Personal Use” is noncommercial use solely by the person downloading the Product from Oracle on a single Host Computer, provided that no more than one client or remote computer is connected to that Host Computer and that client or remote computer is used solely to remotely view the Guest Computer(s). “Educational Use” is any use by teachers or students in an academic institution (schools, colleges and universities) as part of the institution’s educational curriculum. Personal Use and/or Educational Use expressly exclude any use of the Product for commercial purposes or to operate, run, or act on behalf of or for the benefit of a business, organization, governmental organization, or educational institution.
+<br /><br />
+Oracle reserves all rights not expressly granted in this license.
+<br /><br />
+§ 3 Restrictions and Reservation of Rights.
+<br /><br />
+(1) The Product and copies thereof provided to you under this Agreement are copyrighted and licensed, not sold, to you by Oracle.
+<br /><br />
+(2) You may not do any of the following: (a) modify any part of the Product, except to the extent allowed in the documentation accompanying the Product; (b) rent, lease, lend, re-distribute, or encumber the Product; (c) remove or alter any proprietary legends or notices contained in the Product; or (d) decompile, or reverse engineer the Product (except to the extent permitted by applicable law).
+<br /><br />
+(3) The Product is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility and Oracle and its licensors disclaim any express or implied warranty of fitness for such uses.
+<br /><br />
+(4) No right, title or interest in or to any trademark, service mark, logo or trade name of Oracle or its licensors is granted under this Agreement.
+<br /><br />
+§ 4 Termination. The Agreement is effective on the date you receive the Product and remains effective until terminated. Your rights under this Agreement will terminate immediately without notice from Oracle if you materially breach it or take any action in derogation of Oracle's and/or its licensors' rights to the Product. Oracle may terminate this Agreement immediately should any part of the Product become or in Oracle's reasonable opinion likely to become the subject of a claim of intellectual property infringement or trade secret misappropriation. Upon termination, you will cease use of and destroy all copies of the Product under your control and confirm compliance in writing to Oracle. Neither termination of this Agreement nor any deletion or removal of the Product shall limit any obligations you may have to Oracle, or any rights and/or remedies that Oracle may have with respect to any past or future infringing use of the Product (including but not limited to any use of the Product outside the scope of the license provided in the Agreement). Sections 3-9, inclusive, will survive termination of the Agreement.
+<br /><br />
+§ 5 Disclaimer of Warranty. TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, ORACLE PROVIDES THE PRODUCT “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING, ORACLE SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. The entire risk as to the quality and performance of the Product is with you. Should it prove defective, you assume the cost of all necessary servicing, repair, or correction.
+<br /><br />
+§ 6 Limitation of Liability. TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT WILL ORACLE OR ITS LICENSORS BE LIABLE FOR ANY LOST REVENUE, PROFIT, DATA, OR DATA USE, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED REGARDLESS OF THE THEORY OF LIABILITY, ARISING OUT OF OR RELATED TO THE USE OF OR INABILITY TO USE THE PRODUCT, EVEN IF ORACLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. In no event will Oracle's liability to you, whether in contract, tort (including negligence), or otherwise, exceed the amount paid by you for the Product under this Agreement.
+<br /><br />
+§ 7 Separately Licensed Third Party Technology. The Product may contain or require the use of third party technology that is provided with the Product. Oracle may provide certain notices to you in the Product’s documentation, readmes or notice files in connection with such third party technology. Third party technology will be licensed to you either under the terms of this Agreement or, if specified in the documentation, readmes or notice files, under Separate Terms. Your rights to use Separately Licensed Third Party Technology under Separate Terms are not restricted in any way by this Agreement. However, for clarity, notwithstanding the existence of a notice, third party technology that is not Separately Licensed Third Party Technology shall be deemed part of the Product and is licensed to You under the terms of this Agreement. “Separate Terms” refers to separate license terms that are specified in the Product’s documentation, readmes or notice files and that apply to Separately Licensed Third Party Technology. “Separately Licensed Third Party Technology” refers to third party technology that is licensed under Separate Terms and not under the terms of this Agreement.
+<br /><br />
+§ 8 Export. Export laws and regulations of the United States and any other relevant local export laws and regulations apply to the Product. You agree that such export laws govern your use of the Product (including technical data) provided under this Agreement, and you agree to comply with all such export laws and regulations (including “deemed export” and “deemed re-export” regulations). You agree that no data, information, and/or Product (or direct product thereof) will be exported, directly or indirectly, in violation of these laws, or will be used for any purpose prohibited by these laws including, without limitation, nuclear, chemical, or biological weapons proliferation, or development of missile technology.
+<br /><br />
+§ 9 U.S. Government End Users. Oracle programs, including the Product, any operating system, integrated software, any programs installed on hardware, and/or documentation, delivered to U.S. Government end users are "commercial computer software" pursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other rights are granted to the U.S. Government.
+<br /><br />
+§ 10 Miscellaneous. This Agreement is the entire agreement between you and Oracle relating to its subject matter. It supersedes all prior or contemporaneous oral or written communications, proposals, representations and warranties and prevails over any conflicting or additional terms of any quote, order, acknowledgment, or other communication between the parties relating to its subject matter during the term of this Agreement. No modification of this Agreement will be binding, unless in writing and signed by an authorized representative of each party. If any provision of this Agreement is held to be unenforceable, this Agreement will remain in effect with the provision omitted, unless omission would frustrate the intent of the parties, in which case this Agreement will immediately terminate. This Agreement is governed by the laws of the State of California, USA, and you and Oracle agree to submit to the exclusive jurisdiction of, and venue in, the courts of San Francisco or Santa Clara counties in California in any dispute arising out of or relating to this Agreement. Upon 45 days written notice, Oracle may audit your use of the Product to confirm that you are in compliance with the terms of this Agreement. You agree to cooperate with Oracle’s audit and provide reasonable assistance and access to information. Any such audit shall not unreasonably interfere with your normal business operations. You agree to pay within 30 days of written notification any fees applicable to your unlicensed use of the Product. You agree that Oracle shall not be responsible for any of your costs incurred in cooperating with the audit. If a legal action or proceeding is commenced by either party in connection with the enforcement of this Agreement, the prevailing party shall be entitled to its costs and attorneys’ fees actually incurred in connection with such action or proceeding.
+
+</p>
+  <div id="button-container">
+   <a href="https://download.virtualbox.org/virtualbox/7.1.2/Oracle_VirtualBox_Extension_Pack-7.1.2.vbox-extpack" class="license-button">Accept and download</a>
+   <div>
+    <a href="/wiki/VirtualBox_PUEL" target="_blank" class="license-button">PUEL License Text</a>
+    <a href="/wiki/Licensing_FAQ" target="_blank" class="license-button">PUEL License FAQ</a>
+   </div>
+  </div>
+ </div>
+
+</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flexboxes short">
+    <div class="flexboxes">
+      <div class="dark box dl">
+        <li>Change Log</li>
+<p>
+<a class="wiki" href="/wiki/Changelog">List of changes</a>
+</p>
+      </div>
+
+      <div class="dark box dl">
+        <li>File Checksums</li>
+<p>
+<p>
+<a href="/download/hashes/7.1.2/SHA256SUMS">SHA256 checksums</a> <a href="/download/hashes/7.1.2/MD5SUMS">MD5 checksums</a>
+</p>
+
+</p>
+      </div>
+
+      <div class="dark box dl">
+        <li>User Guide</li>
+<p>
+<p>
+<a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.2/UserManual.pdf"><span class="icon">​</span>User Guide (PDF)</a> <a href="/manual">User Guide (HTML)</a>
+</p>
+
+</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flexboxes shorter">
+    <div class="flexboxes">
+      <div class="dark box dl">
+        <li>VirtualBox SDK</li>
+<p>
+<a href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBoxSDK-7.1.2-164945.zip">VirtualBox 7.1.2 Software Developer Kit (SDK)</a>
+
+</p>
+      </div>
+
+      <div class="dark box dl">
+        <li>Source Code</li>
+<p>
+<a href="https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2.tar.bz2">VirtualBox 7.1.2 Source Code</a>
+
+</p>
+      </div>
+
+      <div class="dark box dl">
+        <li>Previous Releases</li>
+<p>
+<a class="wiki" href="/wiki/Download_Old_Builds">VirtualBox older builds</a>
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+        <div class="trac-modifiedby">
+          <span>
+            <a href="/wiki/Downloads?action=diff&amp;version=519" title="Versão 519 por Klaus Espenlaub: Download page: less text in Change Log box">Last modified</a>
+ <a class="timeline" href="/timeline?from=2024-09-27T16%3A07%3A39Z&amp;precision=second" title="Veja o histórico em 27/09/2024 16:07:39">7 dias ago</a>          </span>
+          <span class="trac-print">
+            Última modificação em 27/09/2024 16:07:39
+          </span>
+        </div>
+      </div>
+
+
+
+
+
+<div class="trac-help">
+  <strong>Note:</strong>
+ See   <a href="/wiki/TracWiki">TracWiki</a>
+ for help on using the wiki.
+</div>
+    </div>
+        <!-- # block content (content inherited from layout.html) -->
+    <div id="altlinks">
+      <h3>Download em outros formatos:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/Downloads?format=txt"
+              class="">
+            Texto Puro</a>
+        </li>
+      </ul>
+    </div>
+    <!-- # endblock content (content inherited from layout.html) -->
+
+      <!-- # endblock content (placeholder in theme.html) -->
+    </div>
+
+    <div id="footer"><hr/>
+      <a id="tracpowered" href="https://trac.edgewall.org/"
+         ><img src="/chrome/common/trac_logo_mini.png" height="30"
+               width="107" alt="Trac Powered"/></a>
+      <p class="left">
+Powered by         <a href="/about"><strong>Trac 1.4.3.2</strong></a>
+        <br />
+ By         <a href="http://www.edgewall.org/">Edgewall Software</a>
+.      </p>
+      <p class="right"></p>
+    </div>
+    <!--   # include 'site_footer.html' (theme.html) -->
+
+</div><!-- center -->
+<div id="vboxfooter">
+  <p style="text-align:center">
+    <a href="https://www.oracle.com"><span style="background-image: url(/graphics/oracle-logo-new.svg); width: 100px; height: 24px; background-repeat: no-repeat; background-position: 0 11px; background-size: 100% 100%; display: inline-block"></span> &copy; 2024 Oracle</a>
+    <a href="https://www.oracle.com/virtualization/virtualbox/#rc30category-support-services">Support</a>
+    <a href="https://www.oracle.com/html/privacy.html">Privacy </a>
+    /
+    <a href="https://www.oracle.com/legal/privacy/privacy-choices.html"> Do Not Sell My Info</a>
+    <a href="https://www.oracle.com/html/terms.html">Terms of Use</a>
+    <a href="https://www.oracle.com/legal/trademarks.html">Trademark Policy</a>
+    <a href="/wiki/AutomatedAccessEtiquette">Automated Access Etiquette</a>
+  </p>
+</div>
+
+    <!--   end of site_footer.html -->
+    <!-- # endblock body (content inherited from theme.html) -->
+  </body> </html>
