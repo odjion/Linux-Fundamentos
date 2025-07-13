@@ -1,10 +1,10 @@
 # Linux-Fundamentos: Introdução e Primeiros Comandos
 Uma introdução ao fundamentos do sistema operacional Linux e seus primeiros comandos.
 
-# Plano de Estudo: Aprender Linux em 1 Mês
+# Plano de Estudo: Aprendendo Linux
 
 ## Objetivo
-O objetivo deste repositório é documentar minha jornada de aprendizado de Linux em 1 mês. Aqui você encontrará tutoriais, exemplos de código e guias sobre instalação, configuração e uso do Linux, com foco na distribuição **Ubuntu**.
+O objetivo deste repositório é documentar minha jornada de aprendizado de Linux. Aqui você encontrará tutoriais, exemplos de código e guias sobre instalação, configuração e uso do Linux, com foco na distribuição **Ubuntu**.
 
 ## Cronograma de Estudo
 
